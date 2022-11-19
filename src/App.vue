@@ -3,12 +3,21 @@
 </script>
 
 <template>
-  <div class="banner">
-    <p>Everything about Lifestyle, Travel and Gadgets!</p>
-    <span>SIGN IN</span>
-    <span>ABOUT US</span>
-    <span>CONTACT US</span>
-    <span>BUY NOW</span>
+  <div class="container">
+    <!-- Banner azzurro -->
+    <div class="banner">
+      <p>Everything about Lifestyle, Travel and Gadgets!</p>
+      <span>SIGN IN</span>
+      <span>ABOUT US</span>
+      <span>CONTACT US</span>
+      <span>BUY NOW</span>
+    </div>
+
+    <!-- Logo -->
+    <div>
+      <img src="" alt="">
+    </div>
+
   </div>
   
 </template>
