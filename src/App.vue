@@ -14,8 +14,8 @@
     </div>
 
     <!-- Logo -->
-    <div>
-      <img src="" alt="">
+    <div class="header-logo">
+      <img src="./assets/img/logo-default-slim.png" alt="">
     </div>
 
   </div>
@@ -23,6 +23,7 @@
 </template>
 
 <style>
+/* BANNER */
   .banner{
     background-color: #0088cc;
     color: white;
@@ -40,5 +41,18 @@
 
   .banner span{
     margin-right: 1em;
+  }
+
+
+  /* LOGO */
+  .header-logo{
+    border-bottom: solid 1px #f7f7f7;
+
+  }
+
+  .header-logo img{
+    margin-top: 1em;
+    max-width: 120px;
+    margin-bottom: 1em;
   }
 </style>
