@@ -85,6 +85,119 @@
   </div>
   <!-- /Jumbo -->
   
+  <!-- Header footer -->
+  <div class="container">
+    <div class="row header-footer">
+      <div class="col-4">
+        <h6>POPULAR POSTS</h6>
+        <div class="d-flex border-bottom pb-4 mt-2">
+          <div class="img">
+            <img src="./assets/img/blog-55.jpg" alt="">
+          </div>
+          <div class="text">
+            <h6>Simple Ways to Have a Pretty Face</h6>
+            <span>January 12, 2019</span>
+          </div>
+        </div>
+
+        <div class="d-flex border-bottom pb-4 mt-2">
+          <div class="img">
+            <img src="./assets/img/blog-55.jpg" alt="">
+          </div>
+          <div class="text">
+            <h6>Simple Ways to Have a Pretty Face</h6>
+            <span>January 12, 2019</span>
+          </div>
+        </div>
+
+        <div class="d-flex border-bottom pb-4 mt-2">
+          <div class="img">
+            <img src="./assets/img/blog-55.jpg" alt="">
+          </div>
+          <div class="text">
+            <h6>Simple Ways to Have a Pretty Face</h6>
+            <span>January 12, 2019</span>
+          </div>
+        </div>
+
+        <div class="d-flex border-bottom pb-4 mt-2">
+          <div class="img">
+            <img src="./assets/img/blog-55.jpg" alt="">
+          </div>
+          <div class="text">
+            <h6>Simple Ways to Have a Pretty Face</h6>
+            <span>January 12, 2019</span>
+          </div>
+        </div>
+
+        <div class="d-flex border-bottom pb-4 mt-2">
+          <div class="img">
+            <img src="./assets/img/blog-55.jpg" alt="">
+          </div>
+          <div class="text">
+            <h6>Simple Ways to Have a Pretty Face</h6>
+            <span>January 12, 2019</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-4">
+        <h6>POPULAR POSTS</h6>
+        <div class="d-flex border-bottom pb-4 mt-2">
+          <div class="img">
+            <img src="./assets/img/blog-55.jpg" alt="">
+          </div>
+          <div class="text">
+            <h6>Simple Ways to Have a Pretty Face</h6>
+            <span>January 12, 2019</span>
+          </div>
+        </div>
+
+        <div class="d-flex border-bottom pb-4 mt-2">
+          <div class="img">
+            <img src="./assets/img/blog-55.jpg" alt="">
+          </div>
+          <div class="text">
+            <h6>Simple Ways to Have a Pretty Face</h6>
+            <span>January 12, 2019</span>
+          </div>
+        </div>
+
+        <div class="d-flex border-bottom pb-4 mt-2">
+          <div class="img">
+            <img src="./assets/img/blog-55.jpg" alt="">
+          </div>
+          <div class="text">
+            <h6>Simple Ways to Have a Pretty Face</h6>
+            <span>January 12, 2019</span>
+          </div>
+        </div>
+
+        <div class="d-flex border-bottom pb-4 mt-2">
+          <div class="img">
+            <img src="./assets/img/blog-55.jpg" alt="">
+          </div>
+          <div class="text">
+            <h6>Simple Ways to Have a Pretty Face</h6>
+            <span>January 12, 2019</span>
+          </div>
+        </div>
+
+        <div class="d-flex border-bottom pb-4 mt-2">
+          <div class="img">
+            <img src="./assets/img/blog-55.jpg" alt="">
+          </div>
+          <div class="text">
+            <h6>Simple Ways to Have a Pretty Face</h6>
+            <span>January 12, 2019</span>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-4"></div>
+    </div>
+  </div>
+  <!-- /Header footer -->
 
 </template>
 
@@ -149,7 +262,7 @@
     padding-bottom: 2em;
   }
 
-  .col-4{
+  .jumbo .container .row .col-4{
     height: 200px;
     width: 400px;
     color: white;
@@ -211,4 +324,22 @@
       padding: .3em;
     }
     
+  /* HEADER FOOTER */
+.header-footer{
+  margin-top: 2em;
+}
+
+  .img{
+    width: 70px;
+    height: 70px;
+    
+  }
+
+  .img img{
+    max-width: 100%;
+  }
+
+  .text{
+    margin-left: .5rem;
+  }
 </style>
