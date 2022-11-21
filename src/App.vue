@@ -47,10 +47,10 @@
       <div class="col-4 e"></div>
       <div class="col-4 f"></div>
     </div>
-    
+
     <!-- /Jumbo -->
   </div>
-  
+
 </template>
 
 <style>
@@ -108,6 +108,12 @@
     border: 1px solid;
     height: 200px;
     width: 400px;
-    
   }
+    /* Cards */
+    .a {
+      background-image: url(./assets/img/blog-46.jpg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
 </style>
