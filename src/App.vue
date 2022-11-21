@@ -37,46 +37,52 @@
       </div>
     </div>
     <!-- /Nav bar -->
-
-    <!-- Jumbo -->
-    <div class="row gap-4">
-      <div class="col-4 a">
-        <div class="col-text">
-          <p>PHOTOGRAPHY</p>
-          <h5>How To Take Better Concert Pictures in 30 Seconds</h5>
-        </div>
-      </div>
-      <div class="col-4 b">
-        <div class="col-text">
-          <p>GADGETS</p>
-          <h5>Gadgets That Make Your Smartphone Even Smarter</h5>
-        </div>
-      </div>
-      <div class="col-4 c">
-        <div class="col-text">
-          <p>TRAVEL</p>
-          <h5>20 Top-Rated Tourist Attractions in Manhattan</h5>
-        </div>
-      </div>
-      <div class="col-4 d">
-        <div class="col-text">
-          <p>LIFESTYLE</p>
-          <h5>The Best Way to Ride a Motorcycle</h5>
-        </div>
-      </div>
-      <div class="col-4 e">
-        <div class="col-text">
-          <p>TRAVEL</p>
-          <h5>5 Fun Things to Do at the Beach</h5>
-        </div>
-      </div>
-      <div class="col-4 f"><div class="col-text">
-          <p>RECIPES</p>
-          <h5>Amazingly Fresh Fruit And Herb Drinks For Summer</h5>
-        </div></div>
-    </div>
-    <!-- /Jumbo -->
   </div>
+  
+
+  <!-- Jumbo -->
+  <div class="jumbo">
+    <div class="container">
+      <div class="row gap-4">
+        <div class="col-4 a">
+          <div class="col-text">
+            <p>PHOTOGRAPHY</p>
+            <h5>How To Take Better Concert Pictures in 30 Seconds</h5>
+          </div>
+        </div>
+        <div class="col-4 b">
+          <div class="col-text">
+            <p>GADGETS</p>
+            <h5>Gadgets That Make Your Smartphone Even Smarter</h5>
+          </div>
+        </div>
+        <div class="col-4 c">
+          <div class="col-text">
+            <p>TRAVEL</p>
+            <h5>20 Top-Rated Tourist Attractions in Manhattan</h5>
+          </div>
+        </div>
+        <div class="col-4 d">
+          <div class="col-text">
+            <p>LIFESTYLE</p>
+            <h5>The Best Way to Ride a Motorcycle</h5>
+          </div>
+        </div>
+        <div class="col-4 e">
+          <div class="col-text">
+            <p>TRAVEL</p>
+            <h5>5 Fun Things to Do at the Beach</h5>
+          </div>
+        </div>
+        <div class="col-4 f"><div class="col-text">
+            <p>RECIPES</p>
+            <h5>Amazingly Fresh Fruit And Herb Drinks For Summer</h5>
+          </div></div>
+      </div>
+    </div>
+  </div>
+    <!-- /Jumbo -->
+  
 
 </template>
 
@@ -129,9 +135,16 @@
   }
 
   /* JUMBO */
+  .jumbo{
+    background-color: #d6d6d6;
+  }
+
   .row{
     justify-content: space-around;
+    padding-top: 2em;
+    padding-bottom: 2em;
   }
+
   .col-4{
     height: 200px;
     width: 400px;
