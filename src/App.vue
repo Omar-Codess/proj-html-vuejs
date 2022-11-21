@@ -37,6 +37,18 @@
       </div>
     </div>
     <!-- /Nav bar -->
+
+    <!-- Jumbo -->
+    <div class="row gap-4">
+      <div class="col-4 a"></div>
+      <div class="col-4 b"></div>
+      <div class="col-4 c"></div>
+      <div class="col-4 d"></div>
+      <div class="col-4 e"></div>
+      <div class="col-4 f"></div>
+    </div>
+    
+    <!-- /Jumbo -->
   </div>
   
 </template>
@@ -86,5 +98,16 @@
 
   .left-side span{
     margin-right: 1em;
+  }
+
+  /* JUMBO */
+  .row{
+    justify-content: space-around;
+  }
+  .col-4{
+    border: 1px solid;
+    height: 200px;
+    width: 400px;
+    
   }
 </style>
