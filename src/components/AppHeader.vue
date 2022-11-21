@@ -20,7 +20,7 @@ export default {
   <!-- Logo -->
   <div class="header-logo">
     <div class="container">
-      <img src="./assets/img/logo-default-slim.png" alt="">
+      <img src="../assets/img/logo-default-slim.png" alt="">
     </div>
   </div>
   <!-- /Logo -->
@@ -94,7 +94,7 @@ export default {
         <h6>POPULAR POSTS</h6>
         <div class="d-flex border-bottom pb-4 mt-2">
           <div class="img">
-            <img src="./assets/img/blog-55.jpg" alt="">
+            <img src="../assets/img/blog-55.jpg" alt="">
           </div>
           <div class="text">
             <h6>Simple Ways to Have a Pretty Face</h6>
@@ -104,99 +104,118 @@ export default {
 
         <div class="d-flex border-bottom pb-4 mt-2">
           <div class="img">
-            <img src="./assets/img/blog-55.jpg" alt="">
+            <img src="../assets/img/blog-56.jpg" alt="">
           </div>
           <div class="text">
-            <h6>Simple Ways to Have a Pretty Face</h6>
+            <h6>Ranking the greatest players in basketball</h6>
             <span>January 12, 2019</span>
           </div>
         </div>
 
         <div class="d-flex border-bottom pb-4 mt-2">
           <div class="img">
-            <img src="./assets/img/blog-55.jpg" alt="">
+            <img src="../assets/img/blog-57.jpg" alt="">
           </div>
           <div class="text">
-            <h6>Simple Ways to Have a Pretty Face</h6>
+            <h6>4 Ways to Look Cool in Glasses</h6>
             <span>January 12, 2019</span>
           </div>
         </div>
 
         <div class="d-flex border-bottom pb-4 mt-2">
           <div class="img">
-            <img src="./assets/img/blog-55.jpg" alt="">
+            <img src="../assets/img/blog-58.jpg" alt="">
           </div>
           <div class="text">
-            <h6>Simple Ways to Have a Pretty Face</h6>
+            <h6>Top Camper Trailer Towing Tips</h6>
             <span>January 12, 2019</span>
           </div>
         </div>
 
         <div class="d-flex border-bottom pb-4 mt-2">
           <div class="img">
-            <img src="./assets/img/blog-55.jpg" alt="">
+            <img src="../assets/img/blog-59.jpg" alt="">
           </div>
           <div class="text">
-            <h6>Simple Ways to Have a Pretty Face</h6>
+            <h6>5 Lovely Walks in New York</h6>
             <span>January 12, 2019</span>
           </div>
         </div>
       </div>
 
       <div class="col-4">
-        <h6>POPULAR POSTS</h6>
+        <h6>RECENT POSTS</h6>
         <div class="d-flex border-bottom pb-4 mt-2">
           <div class="img">
-            <img src="./assets/img/blog-55.jpg" alt="">
+            <img src="../assets/img/blog-65.jpg" alt="">
           </div>
           <div class="text">
-            <h6>Simple Ways to Have a Pretty Face</h6>
+            <h6>Main Reasons To Stop Texting And Driving</h6>
             <span>January 12, 2019</span>
           </div>
         </div>
 
         <div class="d-flex border-bottom pb-4 mt-2">
           <div class="img">
-            <img src="./assets/img/blog-55.jpg" alt="">
+            <img src="../assets/img/blog-66 (1).jpg" alt="">
           </div>
           <div class="text">
-            <h6>Simple Ways to Have a Pretty Face</h6>
+            <h6>Tips to Help You Quickly Prepare your Lunch</h6>
             <span>January 12, 2019</span>
           </div>
         </div>
 
         <div class="d-flex border-bottom pb-4 mt-2">
           <div class="img">
-            <img src="./assets/img/blog-55.jpg" alt="">
+            <img src="../assets/img/blog-67.jpg" alt="">
           </div>
           <div class="text">
-            <h6>Simple Ways to Have a Pretty Face</h6>
+            <h6>Why should i buy a smartwatch?</h6>
             <span>January 12, 2019</span>
           </div>
         </div>
 
         <div class="d-flex border-bottom pb-4 mt-2">
           <div class="img">
-            <img src="./assets/img/blog-55.jpg" alt="">
+            <img src="../assets/img/blog-68.jpg" alt="">
           </div>
           <div class="text">
-            <h6>Simple Ways to Have a Pretty Face</h6>
+            <h6>The best augmented reality smartglasses</h6>
             <span>January 12, 2019</span>
           </div>
         </div>
 
         <div class="d-flex border-bottom pb-4 mt-2">
           <div class="img">
-            <img src="./assets/img/blog-55.jpg" alt="">
+            <img src="../assets/img/blog-69.jpg" alt="">
           </div>
           <div class="text">
-            <h6>Simple Ways to Have a Pretty Face</h6>
+            <h6>12 healthiest Foods to Eat for Breakfast</h6>
             <span>January 12, 2019</span>
           </div>
         </div>
       </div>
 
-      <div class="col-4"></div>
+      <div class="col-4">
+        <h6 class="featured-posts-title">FEATURED POSTS</h6>
+        <div class="featured-posts-img mt-4">
+            <div>
+                <p>RECIPES</p>
+                <h5>Tips to Help You Quickly Prepare your Lunch</h5> 
+            </div>
+        </div>
+
+        <h6 class="featured-author-title">FEATURED AUTHOR</h6>
+        <div class="d-flex">
+          <div class="featured-author-img">
+            <img src="../assets/img/avatar.jpg" alt="">
+          </div>
+          <div class="text">
+            <h5>John Doe</h5>
+            <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
   <!-- /Header footer -->
@@ -273,42 +292,42 @@ export default {
   }
     /* Cards */
     .a {
-      background-image: url(./assets/img/blog-46.jpg);
+      background-image: url(../assets/img/blog-46.jpg);
       background-position: center;
       background-size: cover;
       background-repeat: no-repeat;
     }
 
     .b {
-      background-image: url(./assets/img/blog-47.jpg);
+      background-image: url(../assets/img/blog-47.jpg);
       background-position: center;
       background-size: cover;
       background-repeat: no-repeat;
     }
 
     .c {
-      background-image: url(./assets/img/blog-48.jpg);
+      background-image: url(../assets/img/blog-48.jpg);
       background-position: center;
       background-size: cover;
       background-repeat: no-repeat;
     }
 
     .d {
-      background-image: url(./assets/img/blog-49.jpg);
+      background-image: url(../assets/img/blog-49.jpg);
       background-position: center;
       background-size: cover;
       background-repeat: no-repeat;
     }
 
     .e {
-      background-image: url(./assets/img/blog-50.jpg);
+      background-image: url(../assets/img/blog-50.jpg);
       background-position: center;
       background-size: cover;
       background-repeat: no-repeat;
     }
 
     .f {
-      background-image: url(./assets/img/blog-51.jpg);
+      background-image: url(../assets/img/blog-51.jpg);
       background-position: center;
       background-size: cover;
       background-repeat: no-repeat;
@@ -327,20 +346,63 @@ export default {
     
   /* HEADER FOOTER */
 .header-footer{
-  margin-top: 2em;
+margin-top: 2em;
 }
 
-  .img{
-    width: 70px;
-    height: 70px;
+.img{
+width: 70px;
+height: 70px;
+
+}
+
+.img img{
+max-width: 100%;
+}
+
+.text{
+margin-left: .5rem;
+}
+
+.featured-posts-title{
+    margin-bottom: 4rem;
+}
+
+.featured-posts-img{
+    background-image: url(../assets/img/blog-66.jpg);
+    height: 200px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    font-weight: 600;
+    display: flex;
+    align-items: flex-end;
+    padding: .5em;
+}
+
+.featured-posts-img div p{
+    background-color: #0088cc;
+    width: 35%;
+    text-align: center;
+    padding: .3em;
+}
+
+.featured-posts-img div h5{
+    font-weight: 700;
+}
+
+.featured-author-title{
+    margin-top: 4rem;
+}
+
+.featured-author-img{
+    height: 150px;
+    width: 150px;
     
-  }
+}
 
-  .img img{
+.featured-author-img img{
     max-width: 100%;
-  }
-
-  .text{
-    margin-left: .5rem;
-  }
+}
 </style>
