@@ -4,6 +4,7 @@
 
 <template>
   <div class="container">
+
     <!-- Banner azzurro -->
     <div class="banner">
       <p>Everything about Lifestyle, Travel and Gadgets!</p>
@@ -12,12 +13,30 @@
       <span>CONTACT US</span>
       <span>BUY NOW</span>
     </div>
+    <!-- /Banner azzurro -->
 
     <!-- Logo -->
     <div class="header-logo">
       <img src="./assets/img/logo-default-slim.png" alt="">
     </div>
+    <!-- /Logo -->
 
+    <!-- Nav bar -->
+    <div class="nav-bar">
+      <div class="left-side">
+        <span>HOME</span>
+        <span>ELEMENTS</span>
+        <span>FEATURES</span>
+        <span>PAGES</span>
+        <span>PORTFOLIO</span>
+        <span>BLOG</span>
+        <span>SHOP</span>
+      </div>
+      <div class="right-side">
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </div>
+    </div>
+    <!-- /Nav bar -->
   </div>
   
 </template>
@@ -54,5 +73,18 @@
     margin-top: 1em;
     max-width: 120px;
     margin-bottom: 1em;
+  }
+
+  /* NAV BAR */
+  .nav-bar{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+    margin-top: .8em;
+    margin-bottom: .8em;
+  }
+
+  .left-side span{
+    margin-right: 1em;
   }
 </style>
