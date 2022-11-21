@@ -105,13 +105,47 @@
     justify-content: space-around;
   }
   .col-4{
-    border: 1px solid;
     height: 200px;
     width: 400px;
   }
     /* Cards */
     .a {
       background-image: url(./assets/img/blog-46.jpg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    .b {
+      background-image: url(./assets/img/blog-47.jpg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    .c {
+      background-image: url(./assets/img/blog-48.jpg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    .d {
+      background-image: url(./assets/img/blog-49.jpg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    .e {
+      background-image: url(./assets/img/blog-50.jpg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    .f {
+      background-image: url(./assets/img/blog-51.jpg);
       background-position: center;
       background-size: cover;
       background-repeat: no-repeat;
