@@ -3,25 +3,28 @@
 </script>
 
 <template>
-  <div class="container">
-
-    <!-- Banner azzurro -->
-    <div class="banner">
+  <!-- Banner azzurro -->
+  <div class="banner">
+    <div class="container banner-container">
       <p>Everything about Lifestyle, Travel and Gadgets!</p>
       <span>SIGN IN</span>
       <span>ABOUT US</span>
       <span>CONTACT US</span>
       <span>BUY NOW</span>
     </div>
-    <!-- /Banner azzurro -->
+  </div>
+  <!-- /Banner azzurro -->
 
-    <!-- Logo -->
-    <div class="header-logo">
+  <!-- Logo -->
+  <div class="header-logo">
+    <div class="container">
       <img src="./assets/img/logo-default-slim.png" alt="">
     </div>
-    <!-- /Logo -->
-
-    <!-- Nav bar -->
+  </div>
+  <!-- /Logo -->
+  
+  <!-- Nav bar -->
+  <div class="container">
     <div class="nav-bar">
       <div class="left-side">
         <span>HOME</span>
@@ -36,9 +39,8 @@
         <i class="fa-solid fa-magnifying-glass"></i>
       </div>
     </div>
-    <!-- /Nav bar -->
   </div>
-  
+  <!-- /Nav bar -->
 
   <!-- Jumbo -->
   <div class="jumbo">
@@ -81,21 +83,24 @@
       </div>
     </div>
   </div>
-    <!-- /Jumbo -->
+  <!-- /Jumbo -->
   
 
 </template>
 
 <style>
 /* BANNER */
-  .banner{
-    background-color: #0088cc;
+  .banner-container{
     color: white;
     display: flex;
     min-width: 1140px;
     align-items: center;
     height: 40px;
     font-weight: 300;
+  }
+
+  .banner{
+    background-color: #0088cc;
   }
 
   .banner p{
@@ -106,7 +111,6 @@
   .banner span{
     margin-right: 1em;
   }
-
 
   /* LOGO */
   .header-logo{
