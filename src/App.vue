@@ -40,14 +40,41 @@
 
     <!-- Jumbo -->
     <div class="row gap-4">
-      <div class="col-4 a"></div>
-      <div class="col-4 b"></div>
-      <div class="col-4 c"></div>
-      <div class="col-4 d"></div>
-      <div class="col-4 e"></div>
-      <div class="col-4 f"></div>
+      <div class="col-4 a">
+        <div class="col-text">
+          <p>PHOTOGRAPHY</p>
+          <h5>How To Take Better Concert Pictures in 30 Seconds</h5>
+        </div>
+      </div>
+      <div class="col-4 b">
+        <div class="col-text">
+          <p>GADGETS</p>
+          <h5>Gadgets That Make Your Smartphone Even Smarter</h5>
+        </div>
+      </div>
+      <div class="col-4 c">
+        <div class="col-text">
+          <p>TRAVEL</p>
+          <h5>20 Top-Rated Tourist Attractions in Manhattan</h5>
+        </div>
+      </div>
+      <div class="col-4 d">
+        <div class="col-text">
+          <p>LIFESTYLE</p>
+          <h5>The Best Way to Ride a Motorcycle</h5>
+        </div>
+      </div>
+      <div class="col-4 e">
+        <div class="col-text">
+          <p>TRAVEL</p>
+          <h5>5 Fun Things to Do at the Beach</h5>
+        </div>
+      </div>
+      <div class="col-4 f"><div class="col-text">
+          <p>RECIPES</p>
+          <h5>Amazingly Fresh Fruit And Herb Drinks For Summer</h5>
+        </div></div>
     </div>
-
     <!-- /Jumbo -->
   </div>
 
@@ -98,6 +125,7 @@
 
   .left-side span{
     margin-right: 1em;
+    font-weight: 700;
   }
 
   /* JUMBO */
@@ -107,6 +135,10 @@
   .col-4{
     height: 200px;
     width: 400px;
+    color: white;
+    font-weight: 600;
+    display: flex;
+    align-items: flex-end;
   }
     /* Cards */
     .a {
@@ -150,4 +182,16 @@
       background-size: cover;
       background-repeat: no-repeat;
     }
+    
+    .col-text h5{
+      font-weight: 700;
+    }
+
+    .col-text p{
+      background-color: #0088cc;
+      width: 35%;
+      text-align: center;
+      padding: .3em;
+    }
+    
 </style>
