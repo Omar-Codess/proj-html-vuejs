@@ -135,7 +135,7 @@ export default {
                     <span class="page-number"><i class="fa-solid fa-chevron-right"></i></span>
                 </div>
             </div>
-            <div class="col-3 border border-dark">
+            <div class="col-3">
                 <h6 class="fw-bold">LATEST FROM TWITTER</h6>
                 <div class="d-flex mt-2">
                     <i class="fa-brands fa-twitter me-2"></i>
