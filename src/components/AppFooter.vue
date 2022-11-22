@@ -82,6 +82,24 @@ export default {
                 </div>
             </div>
         </div>
+
+
+        <div class="footer-bottom">
+            <div class="container d-flex align-items-center justify-content-between p-relative">
+
+                <i class="fa-solid fa-chevron-up"></i>
+
+                <div class="footer-logo">
+                    <img class="me-5" src="../assets/img/logo-footer.png" alt="">
+                    <span class="gray"><i class="fa-regular fa-copyright"></i> Copyright 2020. All Rights Reeserved.</span>
+                </div>
+                <div class="gray">
+                    <span class="me-2">> FAQ's</span>
+                    <span class="me-2"> > Sitemap</span>
+                    <span> > Contact Us</span>
+                </div>
+            </div>
+        </div>
     </footer>
 </template>
 
@@ -127,5 +145,32 @@ export default {
     height: 20px;
     line-height: 10px;
     margin-right: .5rem;
+}
+
+.footer-bottom{
+    background-color: #1c2023;
+    min-height: 100px;
+}
+
+.footer-logo{
+    filter: grayscale(100%);
+
+}
+
+.footer-logo img{
+    height: 50px;
+}
+
+.container.d-flex.align-items-center {
+    min-height: 100px;
+}
+
+.fa-chevron-up{
+    background-color: #373839;
+    color: white;
+    padding: .8rem;
+    position: absolute;
+    bottom: -4906px;
+    right: 0;
 }
 </style>
