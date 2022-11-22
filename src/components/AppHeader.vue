@@ -1,6 +1,19 @@
 <script>
 export default {
-    name: "AppHeader"
+    name: "AppHeader",
+    data(){
+      return {
+      menu: [
+        "HOME",
+        "ELEMENTS",
+        "FEATURES",
+        "PAGES",
+        "PORTFOLIO",
+        "BLOG",
+        "SHOP"
+      ]
+    }
+  }
 }
 </script>
 
@@ -29,13 +42,13 @@ export default {
   <div class="container">
     <div class="nav-bar">
       <div class="left-side">
-        <span>HOME</span>
-        <span>ELEMENTS</span>
+        <span v-for="element in menu">{{ element }}</span>
+        <!-- <span>ELEMENTS</span>
         <span>FEATURES</span>
         <span>PAGES</span>
         <span>PORTFOLIO</span>
         <span>BLOG</span>
-        <span>SHOP</span>
+        <span>SHOP</span> -->
       </div>
       <div class="right-side">
         <i class="fa-solid fa-magnifying-glass"></i>
