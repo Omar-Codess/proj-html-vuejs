@@ -162,7 +162,7 @@ export default {
                     <img src="../assets/img/29415304_166583630713703_1032667922171953152_n.jpg" alt="">
                 </div>
 
-                <h6 class="fw-bold mt-5">PHOTOS FROM INSTAGRAM</h6>
+                <h6 class="fw-bold mt-5">TAGS</h6>
                 <div class="d-flex">
                     <span class="tag">DESIGN</span>
                     <span class="tag">BRANDS</span>

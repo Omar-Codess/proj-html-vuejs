@@ -51,30 +51,30 @@ export default {
 
                     <div class="col-3">
                         <h6 class="white">CATEGORIES</h6>
-                        <div>
-                            <span>GADGETS</span>
-                            <span>PHOTOGRAPHY</span>
+                        <div class="mb-2">
+                            <span class="footer-categories">GADGETS</span>
+                            <span class="footer-categories">PHOTOGRAPHY</span>
+                        </div>
+                        <div class="mb-2">
+                            <span class="footer-categories">LIFESTYLE</span>
+                            <span class="footer-categories">FASHION</span>
+                            <span class="footer-categories">RECIPES</span>
+                        </div>
+                        <div class="mb-2">
+                            <span class="footer-categories">TRAVEL</span>
+                            <span class="footer-categories">BUSINESS</span>
+                        </div>
+                        <div class="mb-2">
+                            <span class="footer-categories">ARCHITECTURE</span>
+                            <span class="footer-categories">REVIEWS</span>
+                        </div>
+                        <div class="mb-2">
+                            <span class="footer-categories">SPORTS</span>
+                            <span class="footer-categories">VIDEOS</span>
+                            <span class="footer-categories">TECHNOLOGY</span>
                         </div>
                         <div>
-                            <span>LIFESTYLE</span>
-                            <span>FASHION</span>
-                            <span>RECIPES</span>
-                        </div>
-                        <div>
-                            <span>TRAVEL</span>
-                            <span>BUSINESS</span>
-                        </div>
-                        <div>
-                            <span>ARCHITECTURE</span>
-                            <span>REVIEWS</span>
-                        </div>
-                        <div>
-                            <span>SPORTS</span>
-                            <span>VIDEOS</span>
-                            <span>TECHNOLOGY</span>
-                        </div>
-                        <div>
-                            <span>DESIGN</span>
+                            <span class="footer-categories">DESIGN</span>
                         </div>
 
                     </div>
@@ -119,5 +119,13 @@ export default {
     border-radius: 50%;
 }
 
-
+.footer-categories{
+    color: white;
+    background-color: black;
+    padding: .3rem;
+    font-size: 12px;
+    height: 20px;
+    line-height: 10px;
+    margin-right: .5rem;
+}
 </style>
