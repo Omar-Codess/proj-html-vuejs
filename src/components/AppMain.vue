@@ -263,12 +263,13 @@ a{
 
 .read-more-btn{
     border: 1px solid #e2e2e2;
-    font-size: 14px;
-    height: 44px;
-    border-radius: 8px;
+    font-size: 12px;
+    height: 20px;
+    border-radius: 6px;
     color: #888888;
-    line-height: 40px;
+    line-height: 10px;
     vertical-align: middle;
+    padding: .3em;
 }
 
 /* Grid six images */
