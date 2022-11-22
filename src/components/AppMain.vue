@@ -170,6 +170,11 @@ export default {
                     <span class="tag">BUSINESS</span>
                     <span class="tag">TRAVEL</span>
                 </div>
+
+                <h6 class="fw-bold mt-5">FIND US ON FACEBOOK</h6>
+                <div class="okler d-flex align-items-center">
+                    <a class="ms-3" href="">Okler Themes</a>
+                </div>
             </div>
         </div>
     </div>
@@ -318,5 +323,10 @@ a{
     height: 20px;
     line-height: 10px;
     margin-right: .5rem;
+}
+
+.okler{
+    height: 40px;
+    border-left: 5px solid #e2e2e2;
 }
 </style>
