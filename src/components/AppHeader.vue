@@ -255,7 +255,6 @@ export default {
   /* LOGO */
   .header-logo{
     border-bottom: solid 1px #f7f7f7;
-
   }
 
   .header-logo img{
@@ -277,6 +276,10 @@ export default {
     margin-right: 1em;
     font-weight: 700;
     color: gray;
+  }
+
+  .left-side a:hover{
+    color: #0088cc;
   }
 
   /* JUMBO */
