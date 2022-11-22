@@ -8,8 +8,8 @@ export default {
 <!-- Categorie -->
     <div class="categories d-flex align-items-center">
         <div class="container p-relative">
-            <i class="fa-solid fa-chevron-left"></i>
-            <i class="fa-solid fa-chevron-right"></i>
+            <i id="fa-chevron-left" class="fa-solid fa-chevron-left"></i>
+            <i id="fa-chevron-right" class="fa-solid fa-chevron-right"></i>
             <div class="categories-container d-flex justify-content-evenly">
                 <p class="categories-button">GADGETS</p>
                 <p class="categories-button">PHOTOGRAPHY</p>
@@ -104,7 +104,12 @@ export default {
                 </div>
 
                 <div class="grid-six-images mt-5">
-                    <img src="../assets/img/blog-58 (1).jpg" alt="">
+                    <img src="../assets/img/blog-13.jpg" alt="">
+                    <img src="../assets/img/blog-16.jpg" alt="">
+                    <img src="../assets/img/blog-20.jpg" alt="">
+                    <img src="../assets/img/blog-23.jpg" alt="">
+                    <img src="../assets/img/blog-29.jpg" alt="">
+                    <img src="../assets/img/blog-40.jpg" alt="">
                 </div>
                 <div class="left-text">
                     <div class="date-icon">
@@ -122,6 +127,13 @@ export default {
                     </div>
                 </div>
 
+                <div class="page-numbers mt-5">
+                    <span class="page-number"><i class="fa-solid fa-chevron-left"></i></span>
+                    <span class="page-number">1</span>
+                    <span class="page-number">2</span>
+                    <span class="page-number">3</span>
+                    <span class="page-number"><i class="fa-solid fa-chevron-right"></i></span>
+                </div>
             </div>
             <div class="col-3 border border-dark">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum nostrum accusantium repellat quidem maxime saepe, tempore officia laudantium facilis minus quis ullam, excepturi explicabo consequuntur autem totam dicta? Obcaecati, accusantium!
@@ -148,13 +160,13 @@ export default {
     font-weight: 700;
 }
 
-.fa-chevron-left{
+#fa-chevron-left{
     position: absolute;
     left: 185px;
     bottom: -570px;
 }
 
-.fa-chevron-right{
+#fa-chevron-right{
     position: absolute;
     right: 185px;
     bottom: -570px;
@@ -216,5 +228,34 @@ a{
     color: #888888;
     line-height: 40px;
     vertical-align: middle;
+}
+
+/* Grid six images */
+.grid-six-images{
+    height: 600px;
+    width: 100%;
+}
+
+.grid-six-images img{
+    max-width: 100%;
+    width: calc(100% / 3);
+    height: calc(100% / 2);
+}
+
+/* Page number */
+.page-numbers{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.page-number{
+    border: 1px solid #e2e2e2;
+    padding: .5em;
+    color: #0088cc;
+    height: 100%;
+    width: 40px;
+    text-align: center;
 }
 </style>
