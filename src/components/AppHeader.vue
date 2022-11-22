@@ -296,7 +296,7 @@ export default {
   .jumbo .container .row .col-4{
     height: 200px;
     width: 400px;
-    color: white;
+    color: white; 
     font-weight: 600;
     display: flex;
     align-items: flex-end;
@@ -311,7 +311,7 @@ export default {
       background-position: center;
       background-size: cover;
       background-repeat: no-repeat;
-      
+      filter: opacity(90%);
     }
 
     .b {
@@ -319,7 +319,7 @@ export default {
       background-position: center;
       background-size: cover;
       background-repeat: no-repeat;
-      
+      filter: opacity(90%);
     }
 
     .c {
@@ -327,7 +327,7 @@ export default {
       background-position: center;
       background-size: cover;
       background-repeat: no-repeat;
-      
+      filter: opacity(90%);
     }
 
     .d {
@@ -335,7 +335,7 @@ export default {
       background-position: center;
       background-size: cover;
       background-repeat: no-repeat;
-      
+      filter: opacity(90%);
     }
 
     .e {
@@ -343,7 +343,7 @@ export default {
       background-position: center;
       background-size: cover;
       background-repeat: no-repeat;
-      
+      filter: opacity(90%);
     }
 
     .f {
@@ -351,6 +351,7 @@ export default {
       background-position: center;
       background-size: cover;
       background-repeat: no-repeat;
+      filter: opacity(90%);
     }
     
     .col-text h5{
@@ -399,6 +400,7 @@ margin-left: .5rem;
     display: flex;
     align-items: flex-end;
     padding: .5em;
+    filter: opacity(90%);
 }
 
 .featured-posts-img div p{
