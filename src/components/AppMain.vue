@@ -136,8 +136,40 @@ export default {
                 </div>
             </div>
             <div class="col-3 border border-dark">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum nostrum accusantium repellat quidem maxime saepe, tempore officia laudantium facilis minus quis ullam, excepturi explicabo consequuntur autem totam dicta? Obcaecati, accusantium!
-                Consectetur ullam dolore, qui accusamus, recusandae eligendi est dolor deserunt incidunt adipisci suscipit natus, debitis rerum autem consequuntur tempora accusantium! Amet obcaecati nihil cum deserunt explicabo perspiciatis quis quas et?
+                <h6 class="fw-bold">LATEST FROM TWITTER</h6>
+                <div class="d-flex mt-2">
+                    <i class="fa-brands fa-twitter me-2"></i>
+                    <div class="right-text">
+                        <p>If you have any suggestions for the next updates, let us know.</p>
+                        <span>01:05 PM Sep 18th</span>
+                    </div>
+                </div>
+                <div class="d-flex mt-4">
+                    <i class="fa-brands fa-twitter me-2"></i>
+                    <div class="right-text">
+                        <p>We have just updated Porto Admin. Check the chengelog for more information.</p>
+                        <span>01:04 PM Sep 18th</span>
+                    </div>
+                </div>
+
+                <h6 class="fw-bold mt-5">PHOTOS FROM INSTAGRAM</h6>
+                <div class="small-grid-six-images">
+                    <img src="../assets/img/29739607_2020680068220520_4509928046932787200_n.jpg" alt="">
+                    <img src="../assets/img/30087804_253872848488989_8792603541668626432_n.jpg" alt="">
+                    <img src="../assets/img/29415620_196477127626244_3250318472361541632_n.jpg" alt="">
+                    <img src="../assets/img/30078414_1274410412703843_8290935809419247616_n.jpg" alt="">
+                    <img src="../assets/img/30077195_2066750973610181_3733150062893596672_n.jpg" alt="">
+                    <img src="../assets/img/29415304_166583630713703_1032667922171953152_n.jpg" alt="">
+                </div>
+
+                <h6 class="fw-bold mt-5">PHOTOS FROM INSTAGRAM</h6>
+                <div class="d-flex">
+                    <span class="tag">DESIGN</span>
+                    <span class="tag">BRANDS</span>
+                    <span class="tag">VIDEO</span>
+                    <span class="tag">BUSINESS</span>
+                    <span class="tag">TRAVEL</span>
+                </div>
             </div>
         </div>
     </div>
@@ -257,5 +289,34 @@ a{
     height: 100%;
     width: 40px;
     text-align: center;
+}
+
+/* Right text */
+.right-text p{
+    margin-bottom: 0px;
+}
+.right-text span{
+    color: #0088cc;   
+}
+
+.small-grid-six-images{
+    width: 100%;
+    height: 200px;
+}
+
+.small-grid-six-images img{
+    height: calc(100% / 2);
+    width: calc(100% / 3);
+}
+
+.tag{
+    color: white;
+    background-color: #333333;
+    padding: .3rem;
+    border-radius: 20px;
+    font-size: 12px;
+    height: 20px;
+    line-height: 10px;
+    margin-right: .5rem;
 }
 </style>
