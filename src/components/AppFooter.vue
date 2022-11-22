@@ -1,6 +1,9 @@
 <script>
 export default {
-    name: "AppFooter"
+    name: "AppFooter",
+    data() {
+
+    }
 }
 </script>
 
@@ -150,11 +153,6 @@ export default {
 .footer-bottom{
     background-color: #1c2023;
     min-height: 100px;
-}
-
-.footer-logo{
-    filter: grayscale(100%);
-
 }
 
 .footer-logo img{
