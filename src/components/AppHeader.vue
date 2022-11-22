@@ -296,6 +296,7 @@ export default {
       background-position: center;
       background-size: cover;
       background-repeat: no-repeat;
+      
     }
 
     .b {
@@ -303,6 +304,7 @@ export default {
       background-position: center;
       background-size: cover;
       background-repeat: no-repeat;
+      
     }
 
     .c {
@@ -310,6 +312,7 @@ export default {
       background-position: center;
       background-size: cover;
       background-repeat: no-repeat;
+      
     }
 
     .d {
@@ -317,6 +320,7 @@ export default {
       background-position: center;
       background-size: cover;
       background-repeat: no-repeat;
+      
     }
 
     .e {
@@ -324,6 +328,7 @@ export default {
       background-position: center;
       background-size: cover;
       background-repeat: no-repeat;
+      
     }
 
     .f {

@@ -197,6 +197,10 @@ export default {
     font-weight: 700;
 }
 
+.categories-button:hover {
+    border: #0088cc 10px solid;
+}
+
 #fa-chevron-left{
     position: absolute;
     left: 185px;
