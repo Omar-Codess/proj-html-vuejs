@@ -1,9 +1,25 @@
 <script>
 export default {
     name: "AppFooter",
-    data() {
-
+    data(){
+      return {
+      categories: [
+        "GADGETS",
+        "PHOTOGRAPHY",
+        "LIFESTYLE",
+        "FASHION",
+        "RECIPES",
+        "TRAVEL",
+        "BUSINESS",
+        "ARCHITECTURE",
+        "REVIEWS",
+        "SPORTS",
+        "VIDEOS",
+        "TECHNOLOGY",
+        "DESIGN"
+      ]
     }
+  }
 }
 </script>
 
@@ -54,34 +70,10 @@ export default {
 
                     <div class="col-3">
                         <h6 class="white">CATEGORIES</h6>
-                        <div class="mb-2">
-                            <span class="footer-categories">GADGETS</span>
-                            <span class="footer-categories">PHOTOGRAPHY</span>
+                        <div class="mb-2 max-w">
+                            <span class="footer-categories" v-for="category in categories">{{ category }}</span>
                         </div>
-                        <div class="mb-2">
-                            <span class="footer-categories">LIFESTYLE</span>
-                            <span class="footer-categories">FASHION</span>
-                            <span class="footer-categories">RECIPES</span>
-                        </div>
-                        <div class="mb-2">
-                            <span class="footer-categories">TRAVEL</span>
-                            <span class="footer-categories">BUSINESS</span>
-                        </div>
-                        <div class="mb-2">
-                            <span class="footer-categories">ARCHITECTURE</span>
-                            <span class="footer-categories">REVIEWS</span>
-                        </div>
-                        <div class="mb-2">
-                            <span class="footer-categories">SPORTS</span>
-                            <span class="footer-categories">VIDEOS</span>
-                            <span class="footer-categories">TECHNOLOGY</span>
-                        </div>
-                        <div>
-                            <span class="footer-categories">DESIGN</span>
-                        </div>
-
                     </div>
-
                 </div>
             </div>
         </div>
@@ -170,5 +162,13 @@ export default {
     position: absolute;
     bottom: -4906px;
     right: 0;
+}
+
+.max-w{
+    max-width: 100%;
+    max-height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5rem;
 }
 </style>
