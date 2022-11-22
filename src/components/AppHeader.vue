@@ -42,13 +42,7 @@ export default {
   <div class="container">
     <div class="nav-bar">
       <div class="left-side">
-        <span v-for="element in menu">{{ element }}</span>
-        <!-- <span>ELEMENTS</span>
-        <span>FEATURES</span>
-        <span>PAGES</span>
-        <span>PORTFOLIO</span>
-        <span>BLOG</span>
-        <span>SHOP</span> -->
+        <a href="" v-for="element in menu">{{ element }}</a>
       </div>
       <div class="right-side">
         <i class="fa-solid fa-magnifying-glass"></i>
@@ -279,9 +273,10 @@ export default {
     margin-bottom: .8em;
   }
 
-  .left-side span{
+  .left-side a{
     margin-right: 1em;
     font-weight: 700;
+    color: gray;
   }
 
   /* JUMBO */

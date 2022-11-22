@@ -8,19 +8,6 @@ export default {
     AppHeader,
     AppMain,
     AppFooter
-  },
-  data() {
-    return {
-      menu: [
-        "HOME",
-        "ELEMENTS",
-        "FEATURES",
-        "PAGES",
-        "PORTFOLIO",
-        "BLOG",
-        "SHOP"
-      ]
-    }
   }
 }
 </script>
