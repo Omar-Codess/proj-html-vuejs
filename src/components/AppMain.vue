@@ -301,6 +301,11 @@ a{
     text-align: center;
 }
 
+.page-number:hover{
+    color: white;
+    background-color: #0088cc;
+}
+
 /* Right text */
 .right-text p{
     margin-bottom: 0px;
